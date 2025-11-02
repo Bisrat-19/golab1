@@ -1,48 +1,26 @@
 # Reflection Answers – Lab 1: Basic Go Programming  
-**Name:** Bisrat Dereje    
-**ID:** UGR/3229/15
+Name: Bisrat Dereje    
+ID: UGR/3229/15
 
----
 
 ## Activity 1: Setting Up and Running a Go Program
-**Reflection:**  
-I learned how to install and configure Go, create a simple Go file, and run it using the `go run` command. I also understood that every Go program must have a `main()` function as its entry point.
-
----
+Reflection: I learned how to install and configure Go, create a simple Go file, and run it using the `go run` command. I also understood that every Go program must have a `main()` function as its entry point.
 
 ## Activity 2: Variables and Data Types
-**Reflection:**  
-I learned how to declare and initialize variables using both the `var` keyword and the shorthand `:=`. I explored different data types like `int`, `float64`, `string`, and `bool`, and understood how Go infers types automatically.
-
----
+Reflection: I learned how to declare and initialize variables using both the `var` keyword and the shorthand `:=`. I explored different data types like `int`, `float64`, `string`, and `bool`, and understood how Go infers types automatically.
 
 ## Activity 3: Functions and Control Flow
-**Reflection:**  
-I practiced writing custom functions, using `if-else` for decision-making, and `for` loops for repetition. I understood how functions make code reusable and how control flow structures help organize logic.
-
----
+Reflection: I practiced writing custom functions, using `if-else` for decision-making, and `for` loops for repetition. I understood how functions make code reusable and how control flow structures help organize logic.
 
 ## Activity 4: Arrays, Slices, and Maps
-**Reflection:**  
-I learned about Go’s collection types — arrays, slices, and maps. I practiced adding and looping through elements using `range`, and understood the difference between fixed-size arrays and dynamic slices.
+Reflection: I learned about Go’s collection types — arrays, slices, and maps. I practiced adding and looping through elements using `range`, and understood the difference between fixed-size arrays and dynamic slices.
 
----
+## Activity 5: Goroutines 
+Reflection: I learned how to run functions concurrently using goroutines by adding the `go` keyword before a function call. This helped me understand Go’s powerful support for concurrency and parallel execution.
 
-## Activity 5: Goroutines (Concurrency Basics)
-**Reflection:**  
-I learned how to run functions concurrently using goroutines by adding the `go` keyword before a function call. This helped me understand Go’s powerful support for concurrency and parallel execution.
-
----
-
-## Activity 6: Channels (Communicating Between Goroutines)
-**Reflection:**  
-I learned how goroutines communicate safely using channels. I understood how to send and receive data between goroutines and how to use `close(ch)` to signal that no more data will be sent.
-
----
+## Activity 6: Channels 
+Reflection: I learned how goroutines communicate safely using channels. I understood how to send and receive data between goroutines and how to use `close(ch)` to signal that no more data will be sent.
 
 ## Activity 7: Error Handling and Defer
-**Reflection:**  
-I learned how to handle runtime errors using Go’s `error` type and how `defer` ensures that resources like files are properly closed even if an error occurs. This taught me the importance of clean and safe resource management.
-
----
+Reflection: I learned how to handle runtime errors using Go’s `error` type and how `defer` ensures that resources like files are properly closed even if an error occurs. This taught me the importance of clean and safe resource management.
 
